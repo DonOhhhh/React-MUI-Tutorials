@@ -11,6 +11,7 @@ export const Links = () => {
         { link: "/checkbox", text: "Checkbox" },
         { link: "/switch", text: "Switch" },
         { link: "/rating", text: "Rating" },
+        { link: "/autocomplete", text: "Autocomplete" },
     ];
 
     return (
