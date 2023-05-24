@@ -9,6 +9,7 @@ import { MuiRadioButton } from "./components/MuiRadioButton.tsx";
 import { MuiCheckbox } from "./components/MuiCheckbox.tsx";
 import { Links } from "./components/Links.tsx";
 import { MuiSwitch } from "./components/MuiSwitch.tsx";
+import { MuiRating } from "./components/MuiRating.tsx";
 
 const router = createBrowserRouter([
     {
@@ -46,6 +47,10 @@ const router = createBrowserRouter([
             {
                 path: "/switch",
                 element: <MuiSwitch />,
+            },
+            {
+                path: "/rating",
+                element: <MuiRating />,
             },
         ],
     },

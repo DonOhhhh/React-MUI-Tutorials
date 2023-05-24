@@ -10,6 +10,7 @@ export const Links = () => {
         { link: "/radiobutton", text: "RadioButton" },
         { link: "/checkbox", text: "Checkbox" },
         { link: "/switch", text: "Switch" },
+        { link: "/rating", text: "Rating" },
     ];
 
     return (
