@@ -9,6 +9,7 @@ export const Links = () => {
         { link: "/select", text: "Select" },
         { link: "/radiobutton", text: "RadioButton" },
         { link: "/checkbox", text: "Checkbox" },
+        { link: "/switch", text: "Switch" },
     ];
 
     return (
