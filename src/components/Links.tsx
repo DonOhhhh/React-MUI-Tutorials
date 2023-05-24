@@ -13,8 +13,10 @@ export const Links = () => {
 
     return (
         <Stack spacing={2} sx={{ width: "fit-content" }}>
-            {links.map(({ link, text }) => (
-                <Link to={link}>To {text}</Link>
+            {links.map(({ link, text }, i) => (
+                <Link to={link} key={i}>
+                    To {text}
+                </Link>
             ))}
         </Stack>
     );
