@@ -14,6 +14,7 @@ export const Links = () => {
         { link: "/autocomplete", text: "Autocomplete" },
         { link: "/layout", text: "Layout" },
         { link: "/card", text: "Card" },
+        { link: "/accordion", text: "Accordion" },
     ];
 
     return (

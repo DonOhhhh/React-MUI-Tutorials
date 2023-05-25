@@ -13,6 +13,7 @@ import { MuiRating } from "./components/MuiRating.tsx";
 import { MuiAutocomplete } from "./components/MuiAutocomplete.tsx";
 import { MuiLayout } from "./components/MuiLayout.tsx";
 import { MuiCard } from "./components/MuiCard.tsx";
+import { MuiAccordion } from "./components/MuiAccordion.tsx";
 
 const router = createBrowserRouter([
     {
@@ -66,6 +67,10 @@ const router = createBrowserRouter([
             {
                 path: "/card",
                 element: <MuiCard />,
+            },
+            {
+                path: "/accordion",
+                element: <MuiAccordion />,
             },
         ],
     },
