@@ -1,3 +1,7 @@
+body {
+    background-color: #eee;
+}
+
 .App {
     padding: 4rem;
     font-family: Arial, Helvetica, sans-serif;
