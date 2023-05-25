@@ -11,6 +11,7 @@ import { Links } from "./components/Links.tsx";
 import { MuiSwitch } from "./components/MuiSwitch.tsx";
 import { MuiRating } from "./components/MuiRating.tsx";
 import { MuiAutocomplete } from "./components/MuiAutocomplete.tsx";
+import { MuiLayout } from "./components/MuiLayout.tsx";
 
 const router = createBrowserRouter([
     {
@@ -56,6 +57,10 @@ const router = createBrowserRouter([
             {
                 path: "/autocomplete",
                 element: <MuiAutocomplete />,
+            },
+            {
+                path: "/layout",
+                element: <MuiLayout />,
             },
         ],
     },

@@ -12,6 +12,7 @@ export const Links = () => {
         { link: "/switch", text: "Switch" },
         { link: "/rating", text: "Rating" },
         { link: "/autocomplete", text: "Autocomplete" },
+        { link: "/layout", text: "Layout" },
     ];
 
     return (
