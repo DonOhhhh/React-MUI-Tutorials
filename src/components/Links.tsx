@@ -15,6 +15,7 @@ export const Links = () => {
         { link: "/layout", text: "Layout" },
         { link: "/card", text: "Card" },
         { link: "/accordion", text: "Accordion" },
+        { link: "/imagelist", text: "ImageList" },
     ];
 
     return (

@@ -14,6 +14,7 @@ import { MuiAutocomplete } from "./components/MuiAutocomplete.tsx";
 import { MuiLayout } from "./components/MuiLayout.tsx";
 import { MuiCard } from "./components/MuiCard.tsx";
 import { MuiAccordion } from "./components/MuiAccordion.tsx";
+import { MuiImageList } from "./components/MuiImageList.tsx";
 
 const router = createBrowserRouter([
     {
@@ -71,6 +72,10 @@ const router = createBrowserRouter([
             {
                 path: "/accordion",
                 element: <MuiAccordion />,
+            },
+            {
+                path: "/imagelist",
+                element: <MuiImageList />,
             },
         ],
     },
