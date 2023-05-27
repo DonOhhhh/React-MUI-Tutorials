@@ -17,6 +17,7 @@ export const Links = () => {
         { link: "/accordion", text: "Accordion" },
         { link: "/imagelist", text: "ImageList" },
         { link: "/navbar", text: "Navbar" },
+        { link: "/link", text: "Link" },
     ];
 
     return (
