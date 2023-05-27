@@ -21,6 +21,7 @@ export const Links = () => {
         { link: "/breadcrumbs", text: "Breadcrumbs" },
         { link: "/drawer", text: "Drawer" },
         { link: "/speeddial", text: "SpeedDial" },
+        { link: "/bottomnavigation", text: "Bottom Navigation" },
     ];
 
     return (
