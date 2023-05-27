@@ -23,6 +23,7 @@ export const Links = () => {
         { link: "/speeddial", text: "SpeedDial" },
         { link: "/bottomnavigation", text: "Bottom Navigation" },
         { link: "/avatar", text: "Avatar" },
+        { link: "/badge", text: "Badge" },
     ];
 
     return (
