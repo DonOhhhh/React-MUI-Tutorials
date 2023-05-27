@@ -27,6 +27,7 @@ export const Links = () => {
         { link: "/list", text: "List" },
         { link: "/chip", text: "Chip" },
         { link: "/tooltip", text: "Tooltip" },
+        { link: "/table", text: "Table" },
     ];
 
     return (
