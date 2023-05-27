@@ -18,6 +18,7 @@ import { MuiImageList } from "./components/MuiImageList.tsx";
 import { MuiNavbar } from "./components/MuiNavbar.tsx";
 import { MuiLink } from "./components/MuiLink.tsx";
 import { MuiBreadcrumbs } from "./components/MuiBreadcrumbs.tsx";
+import { MuiDrawer } from "./components/MuiDrawer.tsx";
 
 const router = createBrowserRouter([
     {
@@ -91,6 +92,10 @@ const router = createBrowserRouter([
             {
                 path: "/breadcrumbs",
                 element: <MuiBreadcrumbs />,
+            },
+            {
+                path: "/drawer",
+                element: <MuiDrawer />,
             },
         ],
     },

@@ -19,6 +19,7 @@ export const Links = () => {
         { link: "/navbar", text: "Navbar" },
         { link: "/link", text: "Link" },
         { link: "/breadcrumbs", text: "Breadcrumbs" },
+        { link: "/drawer", text: "Drawer" },
     ];
 
     return (
