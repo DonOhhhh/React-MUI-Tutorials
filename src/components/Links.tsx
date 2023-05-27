@@ -26,6 +26,7 @@ export const Links = () => {
         { link: "/badge", text: "Badge" },
         { link: "/list", text: "List" },
         { link: "/chip", text: "Chip" },
+        { link: "/tooltip", text: "Tooltip" },
     ];
 
     return (
