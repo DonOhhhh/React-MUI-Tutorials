@@ -22,6 +22,7 @@ export const Links = () => {
         { link: "/drawer", text: "Drawer" },
         { link: "/speeddial", text: "SpeedDial" },
         { link: "/bottomnavigation", text: "Bottom Navigation" },
+        { link: "/avatar", text: "Avatar" },
     ];
 
     return (
