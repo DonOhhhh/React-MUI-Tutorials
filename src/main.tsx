@@ -23,6 +23,7 @@ import { MuiSpeedDial } from "./components/MuiSpeedDial.tsx";
 import { MuiBottomNavigation } from "./components/MuiBottomNavigation.tsx";
 import { MuiAvatar } from "./components/MuiAvatar.tsx";
 import { MuiBadge } from "./components/MuiBadge.tsx";
+import { MuiList } from "./components/MuiList.tsx";
 
 const router = createBrowserRouter([
     {
@@ -116,6 +117,10 @@ const router = createBrowserRouter([
             {
                 path: "/badge",
                 element: <MuiBadge />,
+            },
+            {
+                path: "/list",
+                element: <MuiList />,
             },
         ],
     },

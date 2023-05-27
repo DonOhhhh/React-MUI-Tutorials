@@ -1,5 +1,5 @@
 import { Stack } from "@mui/material";
-import { Link } from "react-router-dom";
+import { Link as RouterLink } from "react-router-dom";
 
 export const Links = () => {
     const links = [
@@ -24,14 +24,15 @@ export const Links = () => {
         { link: "/bottomnavigation", text: "Bottom Navigation" },
         { link: "/avatar", text: "Avatar" },
         { link: "/badge", text: "Badge" },
+        { link: "/list", text: "List" },
     ];
 
     return (
         <Stack spacing={2} sx={{ width: "fit-content" }}>
             {links.map(({ link, text }, i) => (
-                <Link to={link} key={i}>
+                <RouterLink to={link} key={i}>
                     To {text}
-                </Link>
+                </RouterLink>
             ))}
         </Stack>
     );
