@@ -20,6 +20,7 @@ export const Links = () => {
         { link: "/link", text: "Link" },
         { link: "/breadcrumbs", text: "Breadcrumbs" },
         { link: "/drawer", text: "Drawer" },
+        { link: "/speeddial", text: "SpeedDial" },
     ];
 
     return (

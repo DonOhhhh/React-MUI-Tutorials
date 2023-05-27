@@ -19,6 +19,7 @@ import { MuiNavbar } from "./components/MuiNavbar.tsx";
 import { MuiLink } from "./components/MuiLink.tsx";
 import { MuiBreadcrumbs } from "./components/MuiBreadcrumbs.tsx";
 import { MuiDrawer } from "./components/MuiDrawer.tsx";
+import { MuiSpeedDial } from "./components/MuiSpeedDial.tsx";
 
 const router = createBrowserRouter([
     {
@@ -96,6 +97,10 @@ const router = createBrowserRouter([
             {
                 path: "/drawer",
                 element: <MuiDrawer />,
+            },
+            {
+                path: "/speeddial",
+                element: <MuiSpeedDial />,
             },
         ],
     },
