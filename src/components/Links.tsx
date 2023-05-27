@@ -18,6 +18,7 @@ export const Links = () => {
         { link: "/imagelist", text: "ImageList" },
         { link: "/navbar", text: "Navbar" },
         { link: "/link", text: "Link" },
+        { link: "/breadcrumbs", text: "Breadcrumbs" },
     ];
 
     return (
