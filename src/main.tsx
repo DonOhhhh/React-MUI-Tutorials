@@ -24,6 +24,7 @@ import { MuiBottomNavigation } from "./components/MuiBottomNavigation.tsx";
 import { MuiAvatar } from "./components/MuiAvatar.tsx";
 import { MuiBadge } from "./components/MuiBadge.tsx";
 import { MuiList } from "./components/MuiList.tsx";
+import { MuiChip } from "./components/MuiChip.tsx";
 
 const router = createBrowserRouter([
     {
@@ -121,6 +122,10 @@ const router = createBrowserRouter([
             {
                 path: "/list",
                 element: <MuiList />,
+            },
+            {
+                path: "/chip",
+                element: <MuiChip />,
             },
         ],
     },
