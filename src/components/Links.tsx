@@ -21,7 +21,7 @@ export const Links = () => {
         { link: "/breadcrumbs", text: "Breadcrumbs" },
         { link: "/drawer", text: "Drawer" },
         { link: "/speeddial", text: "SpeedDial" },
-        { link: "/bottomnavigation", text: "Bottom Navigation" },
+        { link: "/bottom-navigation", text: "Bottom Navigation" },
         { link: "/avatar", text: "Avatar" },
         { link: "/badge", text: "Badge" },
         { link: "/list", text: "List" },
@@ -33,6 +33,7 @@ export const Links = () => {
         { link: "/dialog", text: "Dialog" },
         { link: "/progress", text: "Progress" },
         { link: "/skeleton", text: "Skeleton" },
+        { link: "/loading-button", text: "Loading Button" },
     ];
 
     return (

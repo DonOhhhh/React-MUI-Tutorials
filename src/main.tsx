@@ -32,6 +32,7 @@ import { MuiSnackbar } from "./components/MuiSnackbar.tsx";
 import { MuiDialog } from "./components/MuiDialog.tsx";
 import { MuiProgress } from "./components/MuiProgress.tsx";
 import { MuiSkeleton } from "./components/MuiSkeleton.tsx";
+import { MuiLoadingButton } from "./components/MuiLoadingButton.tsx";
 
 const router = createBrowserRouter([
     {
@@ -115,7 +116,7 @@ const router = createBrowserRouter([
                 element: <MuiSpeedDial />,
             },
             {
-                path: "/bottomnavigation",
+                path: "/bottom-navigation",
                 element: <MuiBottomNavigation />,
             },
             {
@@ -161,6 +162,10 @@ const router = createBrowserRouter([
             {
                 path: "/skeleton",
                 element: <MuiSkeleton />,
+            },
+            {
+                path: "/loading-button",
+                element: <MuiLoadingButton />,
             },
         ],
     },
