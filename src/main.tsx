@@ -31,6 +31,7 @@ import { MuiAlert } from "./components/MuiAlert.tsx";
 import { MuiSnackbar } from "./components/MuiSnackbar.tsx";
 import { MuiDialog } from "./components/MuiDialog.tsx";
 import { MuiProgress } from "./components/MuiProgress.tsx";
+import { MuiSkeleton } from "./components/MuiSkeleton.tsx";
 
 const router = createBrowserRouter([
     {
@@ -156,6 +157,10 @@ const router = createBrowserRouter([
             {
                 path: "/progress",
                 element: <MuiProgress />,
+            },
+            {
+                path: "/skeleton",
+                element: <MuiSkeleton />,
             },
         ],
     },

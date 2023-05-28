@@ -32,6 +32,7 @@ export const Links = () => {
         { link: "/snackbar", text: "Snackbar" },
         { link: "/dialog", text: "Dialog" },
         { link: "/progress", text: "Progress" },
+        { link: "/skeleton", text: "Skeleton" },
     ];
 
     return (
