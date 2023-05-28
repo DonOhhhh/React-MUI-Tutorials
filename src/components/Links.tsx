@@ -35,11 +35,12 @@ export const Links = () => {
         { link: "/skeleton", text: "Skeleton" },
         { link: "/loading-button", text: "Loading Button" },
         { link: "/tabs", text: "Tabs" },
+        { link: "/timeline", text: "Timeline" },
     ];
 
     return (
         <Stack spacing={2} sx={{ width: "fit-content" }}>
-            {links.map(({ link, text }, i) => (
+            {links.reverse().map(({ link, text }, i) => (
                 <RouterLink to={link} key={i}>
                     To {text}
                 </RouterLink>
