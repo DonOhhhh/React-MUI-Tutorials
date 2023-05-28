@@ -36,6 +36,7 @@ export const Links = () => {
         { link: "/loading-button", text: "Loading Button" },
         { link: "/tabs", text: "Tabs" },
         { link: "/timeline", text: "Timeline" },
+        { link: "/masonry", text: "Masonry" },
     ];
 
     return (
