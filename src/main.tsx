@@ -29,6 +29,7 @@ import { MuiTooltip } from "./components/MuiTooltip.tsx";
 import { MuiTable } from "./components/MuiTable.tsx";
 import { MuiAlert } from "./components/MuiAlert.tsx";
 import { MuiSnackbar } from "./components/MuiSnackbar.tsx";
+import { MuiDialog } from "./components/MuiDialog.tsx";
 
 const router = createBrowserRouter([
     {
@@ -146,6 +147,10 @@ const router = createBrowserRouter([
             {
                 path: "/snackbar",
                 element: <MuiSnackbar />,
+            },
+            {
+                path: "/dialog",
+                element: <MuiDialog />,
             },
         ],
     },
