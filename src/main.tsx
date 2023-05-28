@@ -33,6 +33,7 @@ import { MuiDialog } from "./components/MuiDialog.tsx";
 import { MuiProgress } from "./components/MuiProgress.tsx";
 import { MuiSkeleton } from "./components/MuiSkeleton.tsx";
 import { MuiLoadingButton } from "./components/MuiLoadingButton.tsx";
+import { MuiTabs } from "./components/MuiTabs.tsx";
 
 const router = createBrowserRouter([
     {
@@ -166,6 +167,10 @@ const router = createBrowserRouter([
             {
                 path: "/loading-button",
                 element: <MuiLoadingButton />,
+            },
+            {
+                path: "/tabs",
+                element: <MuiTabs />,
             },
         ],
     },
