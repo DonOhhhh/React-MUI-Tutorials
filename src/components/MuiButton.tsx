@@ -50,7 +50,6 @@ export const MuiButton = () => {
                 <Button variant="contained" color="info">
                     Info
                 </Button>
-                w
                 <Button variant="contained" color="success">
                     Success
                 </Button>
