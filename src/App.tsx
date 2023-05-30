@@ -20,14 +20,20 @@ const theme = createTheme({
 
 function App() {
     return (
-        <ThemeProvider theme={theme}>
-            <div className="App">
-                <Stack spacing={4} marginBottom={2}>
-                    <ToHome />
-                </Stack>
-                <Outlet />
-            </div>
-        </ThemeProvider>
+        // <ThemeProvider theme={theme}>
+        //     <div className="App">
+        //         <Stack spacing={4} marginBottom={2}>
+        //             <ToHome />
+        //         </Stack>
+        //         <Outlet />
+        //     </div>
+        // </ThemeProvider>
+        <div className="App">
+            <Stack spacing={4} marginBottom={2}>
+                <ToHome />
+            </Stack>
+            <Outlet />
+        </div>
     );
 }
 
